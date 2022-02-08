@@ -16,6 +16,11 @@ h1 {
   line-height: 1.2;
 }
 
+iframe{
+  width: 100vw;
+  height: 100vh;
+}
+
 p {
   margin-top: 10px;
   color: rgba(255,255,255,0.4);
@@ -32,6 +37,7 @@ body {
   position: fixed;
   height: 32px;
   width: calc(100% - 2px);
+  background-color: #48545c;
 }
 
 .maximized #titlebar {
@@ -42,7 +48,7 @@ body {
 #main {
   height: calc(100% - 32px);
   margin-top: 32px;
-  padding: 20px;
+  /* padding: 20px; */
   overflow-y: auto;
 }
 
